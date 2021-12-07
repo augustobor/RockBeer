@@ -1,0 +1,189 @@
+:root {
+	/* Colores */
+	--brown-IPA: #621002;
+	--red-beard: #981301;
+	--red-scotish: #9F001E;
+	--yellow-honey: #FFD701;
+	--yellow-pamp: #F89A09;
+	--black: #1C1C1C;
+	--off-white:#F5F5F5;
+}
+
+/*PARA PONER FUENTES*/
+
+/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
+font-family: 'Domine', serif;  modo birra
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Arvo', serif;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--black);
+}
+
+header {
+	background-image: url('../../images/main/phone/header.png');
+	height: auto;
+	font-family: 'Domine', serif;
+	font-size: x-large;
+	text-align: center;
+	color: var(--off-white);
+}
+
+
+header img {
+	margin-top: 20rem;
+	margin-bottom: 3rem;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+	font-size: 1.4rem;
+}
+
+/*brand storytelling*/
+
+.main--brand-storytelling p {
+	color: var(--off-white);
+	margin: 9rem 3rem 1rem 3rem;
+	font-size: small;
+	text-align: center;
+}
+
+
+
+.main--brand-storytelling hr {
+	border-radius: 10px;
+	border-color: var(--red-scotish);
+	margin: 0 5rem;
+}
+
+.main--brand-storytelling img {
+	margin-top: 3rem;	
+	position: relative;
+	right: 130px;
+}
+
+
+/*Carrusel */
+
+.main--carrusel {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main--carrusel hr {
+	border-color: var(--red-scotish);
+	border-width: 0.7rem;
+	opacity: 40%;
+	margin: 3rem 0;
+}
+
+.main--carrusel-opinions {
+	margin: 2rem 2rem;
+	padding: 3%;
+	font-size: 1.4rem;
+	text-align: center;
+	height: auto;
+	width: 45%;
+	color: var(--off-white);
+	border-radius: 4px;
+	box-shadow: 1px 1px 3px var(--red-beard);
+	background: linear-gradient(340deg, var(--yellow-pamp) 16.69%, var(--red-beard) 100%);
+}
+
+.main--carrusel-opinions div {
+	display: flex;
+	margin-bottom: 1.4rem;
+}
+
+
+
+/*Colocar este código en desktop.css dentro del main*/
+@media screen and ( max-width: 800px) {
+	
+	.main--carrusel {
+		/*En el nuevo archivo poner las mismas propiedades que en style.css*/
+		flex-direction: column;
+		
+	}
+
+	.main--carrusel-opinions {
+		width: 90%;
+		align-self: center;
+		height: 10rem;
+	}
+}
+
+/*footer*/
+
+footer {
+	color: var(--off-white);
+	text-align: center;
+}
+
+footer hr {
+	border-color: var(--red-scotish);
+	margin: 1rem 3rem;
+}
+
+
+.footer--links p {
+    margin-bottom: 1.5rem;
+}
+.footer--links a {
+    font-weight: bold;
+    color: var(--just-white);
+    text-decoration: none;
+}
+
+.footer--by {
+    font-size: large;
+    color: var(--just-white);
+    text-align: left;
+    padding: 3%;
+    margin-top: 5rem;
+}
+
+
+.footer--github {
+    padding: 0 2%;
+    display: flex;
+    text-align: left;
+}
+
+.footer--github a {
+    font-weight: bold;
+    font-size: large;
+    padding: 0.8%;
+    color: var(--just-white);
+    text-decoration: none;
+}
+
+.footer--repository {
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: medium;
+    color: var(--just-white);
+}
+
+.footer--repository a {
+    margin-right: 3rem;
+    font-weight: bold;
+    color: var(--just-white);
+    text-decoration: none;
+}
