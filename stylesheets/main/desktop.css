@@ -1,0 +1,22 @@
+
+.main--brand-storytelling {
+	display: flex;
+	flex-direction: row;
+}
+
+.main--brand-storytelling div img {
+	margin-left: 4rem;
+}
+
+.main--brand-storytelling > img {
+	display: none;
+}
+
+
+.main--brand-storytelling div, footer div {
+	padding: 0 70px 0 70px;
+}
+
+.main--carrusel div {
+	font-size: xx-large;
+}

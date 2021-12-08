@@ -1,0 +1,16 @@
+{
+  "name": "rockbeer",
+  "version": "1.0.0",
+  "description": "Second web frontend proyect. This would be a web bar",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beer",
+    "web",
+    "frontend"
+  ],
+  "author": "augustobor",
+  "license": "MIT"
+}

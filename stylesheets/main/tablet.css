@@ -1,0 +1,23 @@
+
+
+
+.main--brand-storytelling div, footer div {
+	padding: 0 90px 0 90px;
+}
+
+.main--carrusel {
+	flex-direction: column;
+}
+
+#main--carrusel-opinions {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#main--carrusel-opinions article {
+	margin: 2.5rem 2.5rem;
+	padding: 6%;
+	width: 43%;	
+}
+
+
