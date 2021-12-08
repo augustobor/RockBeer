@@ -47,24 +47,47 @@ header img {
 	margin-bottom: 3rem;
 }
 
-nav ul{
-	display: flex;
-	flex-direction: row;
-	font-size: 1.4rem;
+header h1 {
+	padding-bottom: 1%;
 }
+
+/*Menu*/
+
+menu{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 1.5rem;
+	list-style: none;
+}
+
+menu li {
+	padding: 3%;
+}
+
+menu li:hover {
+	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+}
+
+menu li a {
+	text-decoration: none;
+	color: var(--off-white);
+}
+
 
 /*brand storytelling*/
 
-.main--brand-storytelling p {
+
+.main--brand-storytelling p, .main--carrusel > p {
 	color: var(--off-white);
 	margin: 9rem 3rem 1rem 3rem;
 	font-size: small;
 	text-align: center;
+	
 }
 
 
-
-.main--brand-storytelling hr {
+.main--brand-storytelling hr, .main--carrusel hr {
 	border-radius: 10px;
 	border-color: var(--red-scotish);
 	margin: 0 5rem;
@@ -79,10 +102,6 @@ nav ul{
 
 /*Carrusel */
 
-.main--carrusel {
-	display: flex;
-	flex-wrap: wrap;
-}
 
 .main--carrusel hr {
 	border-color: var(--red-scotish);
@@ -91,41 +110,42 @@ nav ul{
 	margin: 3rem 0;
 }
 
-.main--carrusel-opinions {
-	margin: 2rem 2rem;
-	padding: 3%;
-	font-size: 1.4rem;
+#main--carrusel--opinions {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#main--carrusel-opinions article{
+	margin: 2.5rem 3rem;
+	padding: 2%;
+	padding-bottom: 3%;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 2rem;
 	text-align: center;
-	height: auto;
-	width: 45%;
 	color: var(--off-white);
 	border-radius: 4px;
 	box-shadow: 1px 1px 3px var(--red-beard);
 	background: linear-gradient(340deg, var(--yellow-pamp) 16.69%, var(--red-beard) 100%);
 }
 
-.main--carrusel-opinions div {
+.main--carrusel p {
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: 500;
+}
+
+#main--carrusel-opinions article div {
 	display: flex;
 	margin-bottom: 1.4rem;
+	justify-content: left;
+	margin: 1.3rem 0rem;
+}
+
+#main--carrusel-opinions article div img{
+	margin: 0 2.2rem;
 }
 
 
-
-/*Colocar este código en desktop.css dentro del main*/
-@media screen and ( max-width: 800px) {
-	
-	.main--carrusel {
-		/*En el nuevo archivo poner las mismas propiedades que en style.css*/
-		flex-direction: column;
-		
-	}
-
-	.main--carrusel-opinions {
-		width: 90%;
-		align-self: center;
-		height: 10rem;
-	}
-}
 
 /*footer*/
 
@@ -140,9 +160,15 @@ footer hr {
 }
 
 
-.footer--links p {
-    margin-bottom: 1.5rem;
+footer p {
+    margin-bottom: 2rem;
+	padding: 0 50px 0 50px;
+	font-size: medium;
 }
+
+
+
+
 .footer--links a {
     font-weight: bold;
     color: var(--just-white);
@@ -187,3 +213,23 @@ footer hr {
     color: var(--just-white);
     text-decoration: none;
 }
+
+
+
+
+
+
+/*Media queries*/
+
+@media screen and (max-width: 1000px) {
+
+	.main--brand-storytelling div img {
+		display: none;
+	}
+
+}
+
+
+
+
+

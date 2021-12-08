@@ -1,0 +1,66 @@
+:root {
+	/* Colores */
+	--brown-IPA: #621002;
+	--red-beard: #981301;
+	--red-scotish: #9F001E;
+	--yellow-honey: #FFD701;
+	--yellow-pamp: #F89A09;
+	--black: #1C1C1C;
+	--off-white:#F5F5F5;
+}
+
+/*PARA PONER FUENTES*/
+
+/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
+font-family: 'Domine', serif;  modo birra
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Arvo', serif;
+	scroll-behavior: smooth;
+}
+
+header {
+    background-color: var(--black);
+}
+
+section {
+    background: linear-gradient(30deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
+    height: auto;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+/*Menu*/
+
+menu{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 1.5rem;
+	list-style: none;
+    background-color: var(--black);
+}
+
+menu li {
+	padding: 3%;
+}
+
+menu li:hover {
+	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+}
+
+menu li a {
+	text-decoration: none;
+	color: var(--off-white);
+}
