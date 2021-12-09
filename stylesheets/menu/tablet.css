@@ -1,0 +1,17 @@
+menu li a {
+    font-size: x-large;
+}
+
+section > p {
+    font-size: x-large;
+}
+
+#products--items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products--items article {
+    width: 38%;
+}

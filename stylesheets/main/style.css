@@ -87,7 +87,7 @@ menu li a {
 }
 
 
-.main--brand-storytelling hr, .main--carrusel hr {
+.main--brand-storytelling hr, .main--carrusel hr, footer div hr{
 	border-radius: 10px;
 	border-color: var(--red-scotish);
 	margin: 0 5rem;
@@ -113,6 +113,7 @@ menu li a {
 #main--carrusel--opinions {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 #main--carrusel-opinions article{
@@ -130,6 +131,7 @@ menu li a {
 
 .main--carrusel p {
 	margin-bottom: 1rem;
+	margin-top: 3rem;
 	font-size: 1.5rem;
 	font-weight: 500;
 }
@@ -159,14 +161,15 @@ footer hr {
 	margin: 1rem 3rem;
 }
 
+footer .footer--contact > p {
+	margin-top: 6rem;
+}
 
 footer p {
     margin-bottom: 2rem;
 	padding: 0 50px 0 50px;
 	font-size: medium;
 }
-
-
 
 
 .footer--links a {

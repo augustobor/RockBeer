@@ -1,11 +1,19 @@
 
+header {
+	font-size: 5rem;
+}
+
+menu {
+	font-size: 3rem;
+}
+
 .main--brand-storytelling {
 	display: flex;
 	flex-direction: row;
 }
 
 .main--brand-storytelling div img {
-	margin-left: 4rem;
+	margin-left: 9rem;
 }
 
 .main--brand-storytelling > img {
@@ -14,9 +22,25 @@
 
 
 .main--brand-storytelling div, footer div {
-	padding: 0 70px 0 70px;
+	padding: 0 50px 0 50px;
+}
+
+.main--brand-storytelling  p {
+	font-size: large;
 }
 
 .main--carrusel div {
 	font-size: xx-large;
+}
+
+.main--carrusel p {
+	font-size: x-large;
+}
+
+#main--carrusel-opinions article {
+	width: 45%;	
+}
+
+footer p, footer .footer--by, footer .footer--github a, footer .footer--repository a {
+	font-size: 3rem;
 }

@@ -1,0 +1,22 @@
+
+section > p {
+    font-size: 4rem;
+}
+
+menu li a{
+    font-size: 3rem;
+}
+
+#products--items article > p {
+    font-size: 5rem;
+}
+
+#products--items article div p {
+    font-size: x-large;
+    margin-bottom: 3rem;
+}
+
+#products--items article div a {
+    font-size: xx-large;
+
+}

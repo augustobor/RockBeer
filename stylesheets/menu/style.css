@@ -9,12 +9,6 @@
 	--off-white:#F5F5F5;
 }
 
-/*PARA PONER FUENTES*/
-
-/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
-font-family: 'Domine', serif;  modo birra
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
-*/
 
 * {
 	box-sizing: border-box;
@@ -24,19 +18,23 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
 
 html {
 	font-size: 62.5%;
-	font-family: 'Arvo', serif;
+	font-family: 'Domine', serif;
 	scroll-behavior: smooth;
 }
 
 header {
-    background-color: var(--black);
+    background:	var(--black);
+	height: 56rem;
 }
 
+
+
 section {
-    background: linear-gradient(30deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
+    background: linear-gradient(180deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
     height: auto;
     font-size: medium;
     text-align: center;
+	padding-bottom: 10%;
 }
 
 
@@ -64,3 +62,56 @@ menu li a {
 	text-decoration: none;
 	color: var(--off-white);
 }
+
+
+/*Section*/
+
+section > p {
+	font-family: 'Domine', serif;
+	font-size: medium;
+	font-weight: bold;
+	padding: 10%;
+}
+
+#products--items article {
+	font-family: 'Abril Fatface', cursive;
+	color: var(--off-white);
+	background-color: var(--black);
+	margin: 2rem;
+	border-radius: 10px;
+	padding: 5%;
+	height: auto;
+	
+}
+
+#products--items article > p {
+	font-size: 4rem;
+}
+
+#products--items article > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+	padding: 3%;
+}
+
+#products--items article > div img {
+	margin-right: 2rem;
+}
+
+#products--items article div p {
+	margin: 1rem 0rem;
+}
+
+#products--items article div a {
+	text-decoration: none;
+	color: var(--black);
+	font-size: 1.4rem;
+	font-weight: bold;
+	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+	border-radius: 5px;
+	padding: 5%;
+}
+
+
