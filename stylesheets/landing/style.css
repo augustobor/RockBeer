@@ -1,0 +1,129 @@
+:root {
+	/* Colores */
+	--brown-IPA: #621002;
+	--red-beard: #981301;
+	--red-scotish: #9F001E;
+	--yellow-honey: #FFD701;
+	--yellow-pamp: #F89A09;
+	--black: #1C1C1C;
+	--off-white:#F5F5F5;
+}
+
+/*PARA PONER FUENTES*/
+
+/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
+font-family: 'Domine', serif;  modo birra
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Domine', serif;
+	scroll-behavior: smooth;
+}
+
+header {
+    height: 7rem;
+    background: linear-gradient(90deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
+}
+
+/*Menu*/
+
+menu{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 1.5rem;
+	list-style: none;
+    background-color: var(--black);
+}
+
+menu li {
+	padding: 3%;
+}
+
+menu li:hover {
+	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+}
+
+menu li a {
+	text-decoration: none;
+	color: var(--off-white);
+}
+
+
+
+/*Landin section*/
+
+body {
+    background-color: var(--black);
+    height: auto;
+}   
+
+.landing {
+    padding: 5%;
+}
+
+.landing article{
+    background-color: var(--off-white);
+    padding: 10%;
+    margin: 3rem 2rem 10rem 2rem;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: auto;
+}
+
+.landing article h2 {
+    margin-top: 1rem;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.landing article input {
+    border-radius: 8px;
+    font-size: large;
+    width: 90%;
+    padding: 5%;
+    border-color: var(--black);
+    margin: 0.7rem;
+    text-align: center;
+}
+
+
+form > div {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.landing article button {
+    font-weight: bold;
+    margin-top: 3rem;
+    border-radius: 8px;
+    font-size: large;
+    padding: 3%;
+    background-color: #FFFFFF;
+}
+
+.landing article button:hover {
+    background-color: var(--yellow-pamp);
+}
+
+
+@media screen and (max-width: 760px) {
+    
+
+    img {
+        display: none;
+    }
+
+}
+
+

@@ -78,9 +78,9 @@ section > p {
 	color: var(--off-white);
 	background-color: var(--black);
 	margin: 2rem;
-	border-radius: 10px;
 	padding: 5%;
 	height: auto;
+	border-radius: 20px;
 	
 }
 

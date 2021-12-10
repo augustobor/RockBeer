@@ -1,0 +1,22 @@
+
+.landing {
+    padding: 0 10% 0 10%;
+}
+
+.landing article {
+    padding: 8%; 
+}
+
+.landing article input {
+    width: 500px;
+    font-size: x-large;
+}
+
+.landing article div {
+    display: inline-block;
+    padding: 0;
+}
+
+.landing article button {
+     width: 450px;
+}

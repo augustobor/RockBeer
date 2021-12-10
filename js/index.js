@@ -4,25 +4,31 @@ const userInfoList = [
     {
         profile: '../images/main/icons/augusIcon.png',
         name : 'Augusto',
-        opinion: 'Muy buen lugar',
+        opinion: 'Excelente calidad y atención.',
     },
 
     {
         profile: '../images/main/icons/sebaIcon.png',
         name : 'Seba',
-        opinion: 'Muy buen lugar',
+        opinion: 'La mejor cervecería de La Plata.',
     },
 
     {
         profile: '../images/main/icons/belIcon.png',
         name : 'Belen',
-        opinion: 'Muy buen lugar',
+        opinion: 'Voy siempre y la recomiendo por la variedad del menú y sus precios.',
     },
 
     {
         profile: '../images/main/icons/valenIcon.png',
         name : 'Valen',
-        opinion: 'Muy buen lugar',
+        opinion: 'Un lugar muy confortable',
+    },
+
+    {
+        profile: '../images/main/icons/saji.png',
+        name : 'Saji',
+        opinion: 'Excelente atención y gran servicio',
     },
 ]
 
