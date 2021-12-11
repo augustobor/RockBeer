@@ -26,14 +26,14 @@ const userInfoList = [
     },
 
     {
-        profile: '../images/main/icons/saji.png',
+        profile: '../images/main/icons/sajiIcon.png',
         name : 'Saji',
         opinion: 'Excelente atención y gran servicio',
     },
 ]
 
 
-const container = document.getElementById("main--carrusel-opinions")
+const cont = document.getElementById("main--carrusel-opinions")
 
 
 userInfoList.forEach(item => {
@@ -53,7 +53,7 @@ userInfoList.forEach(item => {
 
    article.appendChild(subContainer)
    article.appendChild(description)
-   container.appendChild(article)
+   cont.appendChild(article)
    
 })
 

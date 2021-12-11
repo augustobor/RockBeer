@@ -1,9 +1,17 @@
 
+menu li a {
+    font-size: x-large;
+}
 
 
 .main--brand-storytelling div, footer div {
 	padding: 0 90px 0 90px;
 }
+
+.main--brand-storytelling p, .main--carrusel > p {
+	font-size: large;
+}
+
 
 .main--carrusel {
 	flex-direction: column;
@@ -18,7 +26,17 @@
 #main--carrusel-opinions article {
 	margin: 2.5rem;
 	padding: 1%;
+	font-size: 2.5rem;
 	width: 43%;	
 }
 
+#main--carrusel-opinions article div img{
+	width: 15%;
+	height: 15%;
+}
+
+.footer--github img {
+	width: 10%;
+	height: 10%;
+}
 

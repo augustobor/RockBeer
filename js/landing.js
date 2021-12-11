@@ -12,19 +12,19 @@ datetime.max = week.toLocaleDateString()
 
 
 
-const productsList = [
+const productsListCombo = [
 
-    {name : 'Name 1',},
-    {name : 'Name 2',},
-    {name : 'Name 3',},
-    {name : 'Name 4',},
+    {name : 'Combo 1',},
+    {name : 'Combo 2',},
+    {name : 'Combo 3',},
+    {name : 'Combo 4',},
 
 ]
 
 
 datalist = document.getElementById('products')
 
-productsList.forEach(item => {
+productsListCombo.forEach(item => {
 
     product = document.createElement('option')
     product.value = item.name
@@ -32,3 +32,10 @@ productsList.forEach(item => {
     datalist.appendChild(product)
 
 })
+
+const submit = document.getElementById('landing--card-button')
+
+submit.onclick = () => {
+    const success = document.createElement('p')
+    success.innerHTML = "Reserva realizada con exito!"
+}

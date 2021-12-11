@@ -13,7 +13,8 @@ menu {
 }
 
 .main--brand-storytelling div img {
-	margin-left: 9rem;
+	margin-left: 10rem;
+	align-self: center;
 }
 
 .main--brand-storytelling > img {
@@ -26,7 +27,7 @@ menu {
 }
 
 .main--brand-storytelling  p {
-	font-size: large;
+	font-size: x-large;
 }
 
 .main--carrusel div {
@@ -39,6 +40,11 @@ menu {
 
 #main--carrusel-opinions article {
 	width: 45%;	
+}
+
+#main--carrusel-opinions article div img{
+	width: 12%;
+	height: 12%;
 }
 
 footer p, footer .footer--by, footer .footer--github a, footer .footer--repository a {

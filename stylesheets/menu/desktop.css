@@ -1,4 +1,8 @@
 
+header img {
+    display: none;
+}
+
 section > p {
     font-size: 4rem;
 }

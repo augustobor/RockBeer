@@ -2,33 +2,29 @@ const productsList = [
 
     {
         combo: 'Combo 1',
-        image: '../images/menu/phone/combo1.png',
-        name : 'Name 1',
-        description: 'Some description',
-        price: '$10',
+        image: '../images/menu/combo1.png',
+        description: '🍔 Hamburguesa completa + porción de papas + una cerveza 1L 🍺',
+        price: '$8',
     },
 
     {
         combo: 'Combo 2',
-        image: '../images/menu/phone/combo2.png',
-        name : 'Name 2',
-        description: 'Some description',
-        price: '$10',
+        image: '../images/menu/combo2.png',
+        description: '🍟 Papas con cheddar + 2 cervezas de 1L 🍻',
+        price: '$5',
     },
 
     {
         combo: 'Combo 3',
-        image: '../images/menu/phone/combo3.png',
-        name : 'Name 3',
-        description: 'Some description',
-        price: '$10',
+        image: '../images/menu/combo3.png',
+        description: '🍔 Hamburguesa completa + 1 pinta 🍺',
+        price: '$5',
     },
 
     {
         combo: 'Combo 4',
-        image: '../images/menu/phone/combo4.png',
-        name : 'Name 4',
-        description: 'Some description',
+        image: '../images/menu/combo4.png',
+        description: '🍕 Pizza a elección + 2 pintas 🍺',
         price: '$10',
     },
 ]
@@ -44,7 +40,7 @@ productsList.forEach(item => {
     const subContainer = document.createElement('div')
     const image = document.createElement('img')
     const subSubContainer = document.createElement('div')
-    const name = document.createElement('p')
+
     const description = document.createElement('p')
     const price = document.createElement('p')
     const button = document.createElement('a')
@@ -53,12 +49,16 @@ productsList.forEach(item => {
 
     image.src = item.image
 
-    name.textContent = item.name
+
     description.textContent = item.description
     price.textContent = item.price
+    price.className = "product--items-price"
     button.id = "products--items-button"
-    button.href = "./landing.html"
     button.textContent = "Reservar"
+
+    button.onclick = () => {
+        button.href = "./landing.html"
+    }
 
     container.appendChild(article)
 
@@ -68,7 +68,7 @@ productsList.forEach(item => {
     subContainer.appendChild(image)
     subContainer.appendChild(subSubContainer)
 
-    subSubContainer.appendChild(name)
+
     subSubContainer.appendChild(description)
     subSubContainer.appendChild(price)
     subSubContainer.appendChild(button)
