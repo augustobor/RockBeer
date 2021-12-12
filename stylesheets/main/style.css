@@ -1,5 +1,6 @@
+/* Initial configuration */
+
 :root {
-	/* Colores */
 	--brown-IPA: #621002;
 	--red-beard: #981301;
 	--red-scotish: #9F001E;
@@ -8,13 +9,6 @@
 	--black: #1C1C1C;
 	--off-white:#F5F5F5;
 }
-
-/*PARA PONER FUENTES*/
-
-/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
-font-family: 'Domine', serif;  modo birra
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
-*/
 
 * {
 	box-sizing: border-box;
@@ -33,7 +27,7 @@ body {
 }
 
 header {
-	background-image: url('../../images/main/phone/header.png');
+	background-image: url('../../images/main/phone/header.webp');
 	height: auto;
 	font-family: 'Domine', serif;
 	font-size: x-large;
@@ -45,6 +39,8 @@ header {
 header img {
 	margin-top: 20rem;
 	margin-bottom: 3rem;
+	width: 200px;
+	height: 200px;
 }
 
 header h1 {
@@ -53,13 +49,14 @@ header h1 {
 
 /*Menu*/
 
-menu{
+menu ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	font-size: 1.5rem;
 	list-style: none;
 }
+
 
 menu li {
 	padding: 3%;
@@ -75,8 +72,8 @@ menu li a {
 }
 
 
-/*brand storytelling*/
 
+/*Brand Storytelling*/
 
 .main--brand-storytelling p, .main--carrusel > p {
 	color: var(--off-white);
@@ -86,27 +83,28 @@ menu li a {
 }
 
 
-.main--brand-storytelling hr, .main--carrusel hr, footer div hr{
+.main--brand-storytelling hr, .main--carrusel hr {
 	border-radius: 10px;
 	border-color: var(--red-scotish);
-	margin: 0 5rem;
+	margin: 0rem 5rem;
 }
 
 .main--brand-storytelling img {
 	margin-top: 3rem;	
 	position: relative;
+	width: 220px;
+	height: 220px;
 	right: 130px;
 }
 
 
-/*Carrusel */
-
+/*Carrusel*/
 
 .main--carrusel hr {
 	border-color: var(--red-scotish);
 	border-width: 0.7rem;
 	opacity: 40%;
-	margin: 3rem 0;
+	margin: 3rem 0rem;
 }
 
 #main--carrusel--opinions {
@@ -115,7 +113,7 @@ menu li a {
 	align-items: center;
 }
 
-#main--carrusel-opinions article{
+#main--carrusel-opinions article {
 	margin: 2.5rem 3rem;
 	padding: 2%;
 	padding-bottom: 3%;
@@ -142,10 +140,10 @@ menu li a {
 	margin: 1.3rem 0rem;
 }
 
-#main--carrusel-opinions article div img{
+#main--carrusel-opinions article div img {
 	width: 20%;
 	height: 20%;
-	margin: 0 2.2rem;
+	margin: 0rem 2.2rem;
 }
 
 
@@ -160,6 +158,7 @@ footer {
 footer hr {
 	border-color: var(--red-scotish);
 	margin: 1rem 3rem;
+	margin: 0 20% 0 20%;
 }
 
 footer .footer--contact > p {

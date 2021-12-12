@@ -1,5 +1,6 @@
+/* Initial configuration */
+
 :root {
-	/* Colores */
 	--brown-IPA: #621002;
 	--red-beard: #981301;
 	--red-scotish: #9F001E;
@@ -8,13 +9,6 @@
 	--black: #1C1C1C;
 	--off-white:#F5F5F5;
 }
-
-/*PARA PONER FUENTES*/
-
-/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
-font-family: 'Domine', serif;  modo birra
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
-*/
 
 * {
 	box-sizing: border-box;
@@ -36,7 +30,7 @@ header {
 
 /*Menu*/
 
-menu{
+menu ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -58,7 +52,7 @@ menu li a {
 	color: var(--off-white);
 }
 
-/*contact section*/
+/*Contact section*/
 
 body {
     background-color: var(--black);
@@ -91,25 +85,3 @@ body article p {
     font-size: large;
 }
 
-
-@media screen and (min-width: 600px){
-
-    menu li a {
-        font-size: x-large;
-    }
-
-    section {
-        display: flex;
-        justify-content: center;
-        padding: 3%;
-    }
-
-    body article h2 {
-        font-size: xx-large;
-    }
-
-    body article p {
-        margin: 4rem 4rem;
-        font-size: x-large;
-    }
-}

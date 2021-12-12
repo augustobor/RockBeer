@@ -1,8 +1,11 @@
 
+/*Menu*/
+
 menu li a {
     font-size: x-large;
 }
 
+/*Brand Storytelling*/
 
 .main--brand-storytelling div, footer div {
 	padding: 0 90px 0 90px;
@@ -12,6 +15,7 @@ menu li a {
 	font-size: large;
 }
 
+/*Carrusel*/
 
 .main--carrusel {
 	flex-direction: column;
@@ -34,6 +38,8 @@ menu li a {
 	width: 15%;
 	height: 15%;
 }
+
+/*footer*/
 
 .footer--github img {
 	width: 10%;

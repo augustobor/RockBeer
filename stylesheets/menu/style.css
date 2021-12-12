@@ -1,5 +1,6 @@
+/* Initial configuration */
+
 :root {
-	/* Colores */
 	--brown-IPA: #621002;
 	--red-beard: #981301;
 	--red-scotish: #9F001E;
@@ -47,7 +48,7 @@ section {
 
 /*Menu*/
 
-menu{
+menu ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -55,6 +56,7 @@ menu{
 	list-style: none;
     background-color: var(--black);
 }
+
 
 menu li {
 	padding: 3%;

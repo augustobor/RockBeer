@@ -2,33 +2,33 @@
 const userInfoList = [
 
     {
-        profile: '../images/main/icons/augusIcon.png',
+        profile: '../images/main/icons/augusIcon.webp',
         name : 'Augusto',
-        opinion: 'Excelente calidad y atención.',
+        opinion: 'Excellent quality and atention',
     },
 
     {
-        profile: '../images/main/icons/sebaIcon.png',
+        profile: '../images/main/icons/sebaIcon.webp',
         name : 'Seba',
-        opinion: 'La mejor cervecería de La Plata.',
+        opinion: 'Best pub in La Plata',
     },
 
     {
-        profile: '../images/main/icons/belIcon.png',
+        profile: '../images/main/icons/belIcon.webp',
         name : 'Belen',
-        opinion: 'Voy siempre y la recomiendo por la variedad del menú y sus precios.',
+        opinion: 'I always go and I recomend because the variety of the menu and their prices is so high!',
     },
 
     {
-        profile: '../images/main/icons/valenIcon.png',
+        profile: '../images/main/icons/valenIcon.webp',
         name : 'Valen',
-        opinion: 'Un lugar muy confortable',
+        opinion: 'A very comfortable place',
     },
 
     {
-        profile: '../images/main/icons/sajiIcon.png',
+        profile: '../images/main/icons/sajiIcon.webp',
         name : 'Saji',
-        opinion: 'Excelente atención y gran servicio',
+        opinion: 'Excellent atention and great service',
     },
 ]
 
@@ -45,7 +45,9 @@ userInfoList.forEach(item => {
    const description = document.createElement('p')
 
    profile.src = item.profile
+   profile.alt = "image icon"
    name.textContent = item.name
+
    subContainer.appendChild(profile)
    subContainer.appendChild(name)
 

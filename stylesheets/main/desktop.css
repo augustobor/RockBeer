@@ -1,4 +1,6 @@
 
+/*header and menu*/
+
 header {
 	font-size: 5rem;
 }
@@ -7,6 +9,8 @@ menu {
 	font-size: 3rem;
 }
 
+/*Brand Storytelling*/
+ 
 .main--brand-storytelling {
 	display: flex;
 	flex-direction: row;
@@ -30,6 +34,8 @@ menu {
 	font-size: x-large;
 }
 
+/*Carrusel*/
+
 .main--carrusel div {
 	font-size: xx-large;
 }
@@ -38,6 +44,9 @@ menu {
 	font-size: x-large;
 }
 
+.main--carrusel > p {
+	margin-top: 10rem;
+}
 #main--carrusel-opinions article {
 	width: 45%;	
 }
@@ -46,6 +55,8 @@ menu {
 	width: 12%;
 	height: 12%;
 }
+
+/*footer*/
 
 footer p, footer .footer--by, footer .footer--github a, footer .footer--repository a {
 	font-size: 3rem;

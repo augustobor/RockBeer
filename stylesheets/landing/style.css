@@ -1,5 +1,6 @@
+/* Initial configuration */
+
 :root {
-	/* Colores */
 	--brown-IPA: #621002;
 	--red-beard: #981301;
 	--red-scotish: #9F001E;
@@ -9,12 +10,6 @@
 	--off-white:#F5F5F5;
 }
 
-/*PARA PONER FUENTES*/
-
-/* font-family: 'Abril Fatface', cursive; TITULO O COMBOS
-font-family: 'Domine', serif;  modo birra
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; comodin
-*/
 
 * {
 	box-sizing: border-box;
@@ -35,7 +30,7 @@ header {
 
 /*Menu*/
 
-menu{
+menu ul {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
@@ -58,8 +53,7 @@ menu li a {
 }
 
 
-
-/*Landin section*/
+/*Landing section*/
 
 body {
     background-color: var(--black);
@@ -97,11 +91,6 @@ body {
 }
 
 
-form > div {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-}
 
 .landing article button {
     font-weight: bold;
@@ -119,7 +108,6 @@ form > div {
 
 @media screen and (max-width: 760px) {
     
-
     img {
         display: none;
     }

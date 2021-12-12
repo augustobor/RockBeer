@@ -2,29 +2,29 @@ const productsList = [
 
     {
         combo: 'Combo 1',
-        image: '../images/menu/combo1.png',
-        description: '🍔 Hamburguesa completa + porción de papas + una cerveza 1L 🍺',
+        image: '../images/menu/combo1.webp',
+        description: '🍔 XL hamburguese + 🍟 Chips + 1L beer 🍺',
         price: '$8',
     },
 
     {
         combo: 'Combo 2',
-        image: '../images/menu/combo2.png',
-        description: '🍟 Papas con cheddar + 2 cervezas de 1L 🍻',
+        image: '../images/menu/combo2.webp',
+        description: '🍟 Chips with cheddar + 2L beer 🍻',
         price: '$5',
     },
 
     {
         combo: 'Combo 3',
-        image: '../images/menu/combo3.png',
-        description: '🍔 Hamburguesa completa + 1 pinta 🍺',
+        image: '../images/menu/combo3.webp',
+        description: '🍔 XL hamburguese + 1 glass of beer 🍺',
         price: '$5',
     },
 
     {
         combo: 'Combo 4',
-        image: '../images/menu/combo4.png',
-        description: '🍕 Pizza a elección + 2 pintas 🍺',
+        image: '../images/menu/combo4.webp',
+        description: '🍕 Choose your pizza + 2 glasses of beer 🍺',
         price: '$10',
     },
 ]
@@ -48,7 +48,7 @@ productsList.forEach(item => {
     title.textContent = item.combo
 
     image.src = item.image
-
+    image.alt = "combo"
 
     description.textContent = item.description
     price.textContent = item.price
@@ -72,6 +72,5 @@ productsList.forEach(item => {
     subSubContainer.appendChild(description)
     subSubContainer.appendChild(price)
     subSubContainer.appendChild(button)
-
     
  })

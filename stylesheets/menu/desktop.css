@@ -7,9 +7,13 @@ section > p {
     font-size: 4rem;
 }
 
+/*Menu*/
+
 menu li a{
     font-size: 3rem;
 }
+
+/*Section*/
 
 #products--items article > p {
     font-size: 5rem;

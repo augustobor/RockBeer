@@ -11,7 +11,6 @@ week.setDate(date.getDate() + 7)
 datetime.max = week.toLocaleDateString()
 
 
-
 const productsListCombo = [
 
     {name : 'Combo 1',},
@@ -22,7 +21,7 @@ const productsListCombo = [
 ]
 
 
-datalist = document.getElementById('products')
+const datalist = document.getElementById('products')
 
 productsListCombo.forEach(item => {
 
@@ -37,5 +36,5 @@ const submit = document.getElementById('landing--card-button')
 
 submit.onclick = () => {
     const success = document.createElement('p')
-    success.innerHTML = "Reserva realizada con exito!"
+    success.innerHTML = "Reserved sucessfully!"
 }

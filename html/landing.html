@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Author, Illustrator: Augusto.B. This is a personal web proyect">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Domine:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -17,41 +18,43 @@
         <title>Rock Beer 🍺 | Landing</title>
     </head>
     <body>
-        
-        <header>
-        
-        </header>
+
+        <header></header>
 
         <menu>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./products.html">Productos</a></li>
-            <li><a href="#">Reservar</a></li>
-            <li><a href="./contact.html">Contacto</a></li>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#">Reserve</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
         </menu>
+        
         <section class="landing">
             <article>
                 <div>
-                    <img src="../images/landing/logo.png"/>
-                    <h2>Estas a un click de reservar 
-                        una gran experiencia!</h2>
+                    <img src="../images/landing/logo.webp" alt="Logo"/>
+                    <h2>
+                        Just 1 click to reserve 
+                        a great experience!
+                    </h2>
                 </div>
                 <form class="landing--card">
-                    <input id="landing--card-name" type="text" placeholder="nombre" required/>
-                    <input id="landing--card-tel" type="tel" placeholder="teléfono"/>
+                    <input id="landing--card-name" type="text" placeholder="name" required/>
+                    <input id="landing--card-tel" type="tel" placeholder="phone"/>
                     <div>
                         <input id="landing--card-day" type="date" required min=""/>
                         <input id="landing--card-hour" type="time" min="18:00" max="03:00" required/>
                     </div>
-                    <input id="landing--card-amount" type="number" placeholder="# personas" required/>
-                    <input id="landing--card-products" list="products" placeholder="productos" required/>
+                    <input id="landing--card-amount" type="number" placeholder="# friends" required/>
+                    <input id="landing--card-products" list="products" placeholder="combo" required/>
                     <datalist id="products">
 
                     </datalist> 
-                    <button id="landing--card-button" type="submit">Reservar</button>
+                    <button id="landing--card-button" type="submit">Reserve</button>
                 </form>
             </article>
-            <script src="../js/landing.js"></script>
-            <script src="../js/products.js"></script>
         </section>
+        <script src="../js/landing.js"></script>
     </body>
 </html>

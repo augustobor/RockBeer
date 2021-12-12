@@ -1,7 +1,10 @@
+/*Menu*/
 
 menu li a {
     font-size: x-large;
 }
+
+/*Section*/
 
 section > p {
     font-size: x-large;

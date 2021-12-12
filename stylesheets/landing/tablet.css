@@ -1,9 +1,11 @@
 
+/*Menu*/
 
 menu li a {
     font-size: x-large;
 }
 
+/*landing page*/
 .landing {
     padding: 0 3.5% 0 3.5%;
 }
@@ -18,7 +20,15 @@ menu li a {
 
 .landing article input {
     padding: 3%;
+    font-size: x-large;
 }
+
+form > div {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
 
 .landing article input div > input {
     width: 40%;
