@@ -85,3 +85,10 @@ body article p {
     font-size: large;
 }
 
+@media screen and (min-width: 1000px) {
+	section {
+		display: flex;
+		justify-content: center;
+		padding: 3%;
+	} 
+}

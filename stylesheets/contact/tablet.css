@@ -6,12 +6,6 @@ menu li a {
 
 /*Contact section*/
 
-section {
-    display: flex;
-    justify-content: center;
-    padding: 3%;
-}
-
 body article h2 {
     font-size: xx-large;
 }
