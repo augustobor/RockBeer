@@ -1,4 +1,11 @@
 
+/*Menu*/
+
+menu li a {
+    font-size: 3rem;
+}
+
+
 /*header and menu*/
 
 header {

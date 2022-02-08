@@ -1,4 +1,8 @@
 
+header {
+	height: 7rem;
+}
+
 header img {
     display: none;
 }

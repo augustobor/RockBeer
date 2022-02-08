@@ -51,7 +51,7 @@ header h1 {
 
 menu ul {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-direction: row;
 	font-size: 1.5rem;
 	list-style: none;
@@ -59,11 +59,23 @@ menu ul {
 
 
 menu li {
+	margin-top: 1rem;
 	padding: 3%;
+	border-radius: 10px;
+	transform: scale(1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+	animation-direction: reverse;
 }
 
 menu li:hover {
-	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+	transform: scale(1.1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+}
+
+menu li a:active {
+	color: var(--red-beard);
 }
 
 menu li a {
@@ -204,6 +216,8 @@ footer p {
     padding: 0.8%;
     color: var(--just-white);
     text-decoration: none;
+	transform: scale(1);
+	transition: transform 200ms linear;
 }
 
 .footer--repository {
@@ -220,12 +234,18 @@ footer p {
     font-weight: bold;
     color: var(--just-white);
     text-decoration: none;
+	transform: scale(1);
+	transition: transform 200ms linear;
 }
 
-.footer--repository a:hover {
-	zoom: 110%;
+.footer--repository a:hover, .footer--github a:hover {
+	transform: scale(1.1);
+	transition: transform 200ms linear;
 }
 
+.footer--repository a:active, .footer--github a:active { 
+	color: var(--red-scotish);
+}
 
 
 
@@ -244,7 +264,6 @@ footer p {
 		background: linear-gradient(90deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
 	}
 }
-
 
 
 

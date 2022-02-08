@@ -32,26 +32,38 @@ header {
 
 menu ul {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-direction: row;
 	font-size: 1.5rem;
 	list-style: none;
-    background-color: var(--black);
+	background-color: var(--black);
 }
 
+
 menu li {
+	margin-top: 1rem;
 	padding: 3%;
+	border-radius: 10px;
+	transform: scale(1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+	animation-direction: reverse;
 }
 
 menu li:hover {
-	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+	transform: scale(1.1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+}
+
+menu li a:active {
+	color: var(--red-beard);
 }
 
 menu li a {
 	text-decoration: none;
 	color: var(--off-white);
 }
-
 
 /*Landing section*/
 
@@ -99,12 +111,20 @@ body {
     font-size: large;
     padding: 3%;
     background-color: #FFFFFF;
+    transform: scale(1);
+    transition: all 200ms linear;
 }
 
 .landing article button:hover {
+    transform: scale(1.1);
     background-color: var(--yellow-pamp);
+    transition: all 200ms linear;
 }
 
+.landing article button:active {
+    color: var(--red-scotish);
+    transition: none;
+}
 
 @media screen and (max-width: 760px) {
     

@@ -25,7 +25,7 @@ html {
 
 header {
     background:	var(--black);
-	height: 56rem;
+	height: 7rem;
 }
 
 header img {
@@ -48,28 +48,42 @@ section {
 
 /*Menu*/
 
+
 menu ul {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	flex-direction: row;
 	font-size: 1.5rem;
 	list-style: none;
-    background-color: var(--black);
+	background-color: var(--black);
 }
 
 
 menu li {
+	margin-top: 1rem;
 	padding: 3%;
+	border-radius: 10px;
+	transform: scale(1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+	animation-direction: reverse;
 }
 
 menu li:hover {
-	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
+	transform: scale(1.1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+}
+
+menu li a:active {
+	color: var(--red-beard);
 }
 
 menu li a {
 	text-decoration: none;
 	color: var(--off-white);
 }
+
 
 
 /*Section*/
@@ -127,10 +141,17 @@ section > p {
 	background: linear-gradient(325deg, var(--yellow-pamp) 16.69%, var(--red-scotish) 100%);
 	border-radius: 5px;
 	padding: 5%;
+	opacity: 50%;
+	transition: opacity 200ms linear;
 }
 
 #products--items article div a:hover {
-	opacity: 50%;
+	opacity: 100%;
+	transition: opacity 200ms linear;
+}
+
+#products--items article div a:active {
+	color: var(--off-white);
 }
 
 

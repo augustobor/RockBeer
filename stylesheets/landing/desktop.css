@@ -1,4 +1,12 @@
 
+
+/*Menu*/
+
+menu li a {
+    font-size: 3rem;
+}
+
+
 /*landing page*/
 
 .landing {
