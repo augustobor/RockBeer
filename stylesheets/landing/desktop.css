@@ -10,16 +10,18 @@ menu li a {
 /*landing page*/
 
 .landing {
-    padding: 0 10% 0 10%;
+    padding: 0 9% 0 9%;
 }
 
 .landing article {
-    padding: 8%; 
+    padding: 2%; 
+    margin: 3rem 2rem 5rem 2rem;
 }
 
 .landing article input {
     width: 500px;
-    font-size: x-large;
+    font-size: large;
+    padding: 2%;
 }
 
 .landing article div {

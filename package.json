@@ -1,6 +1,6 @@
 {
   "name": "rockbeer",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Second web frontend proyect. This would be a web bar",
   "main": "index.js",
   "scripts": {

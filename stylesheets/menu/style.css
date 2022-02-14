@@ -92,7 +92,7 @@ section > p {
 	font-family: 'Domine', serif;
 	font-size: medium;
 	font-weight: bold;
-	padding: 10%;
+	padding: 4%;
 }
 
 #products--items article {
@@ -103,7 +103,6 @@ section > p {
 	padding: 5%;
 	height: auto;
 	border-radius: 20px;
-	
 }
 
 #products--items article > p {

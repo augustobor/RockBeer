@@ -19,6 +19,10 @@ menu li a{
 
 /*Section*/
 
+#products--items article {
+	padding: 1%;
+}
+
 #products--items article > p {
     font-size: 5rem;
 }
@@ -28,7 +32,11 @@ menu li a{
     margin-bottom: 3rem;
 }
 
+#products--items article > div img {
+	width: 40%;
+	height: 40%;
+}
+
 #products--items article div a {
     font-size: xx-large;
-
 }
