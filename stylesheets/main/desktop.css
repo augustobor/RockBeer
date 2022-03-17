@@ -23,7 +23,8 @@ menu {
 	flex-direction: row;
 }
 
-.main--brand-storytelling div img {
+
+.main--brand-storytelling article img {
 	margin-left: 10rem;
 	align-self: center;
 }
@@ -33,7 +34,7 @@ menu {
 }
 
 
-.main--brand-storytelling div, footer div {
+.main--brand-storytelling article, footer div {
 	padding: 0 50px 0 50px;
 }
 
@@ -66,5 +67,9 @@ menu {
 /*footer*/
 
 footer p, footer .footer--by, footer .footer--github a, footer .footer--repository a {
+	font-size: 3rem;
+}
+
+footer .footer--contact > h2 {
 	font-size: 3rem;
 }

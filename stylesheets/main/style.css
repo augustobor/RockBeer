@@ -173,8 +173,10 @@ footer hr {
 	margin: 0 20% 0 20%;
 }
 
-footer .footer--contact > p {
+footer .footer--contact > h2 {
 	margin-top: 6rem;
+	margin-bottom: 0.8rem;
+	font-size: 1.8rem;
 }
 
 footer p {
@@ -253,7 +255,7 @@ footer p {
 
 @media screen and (max-width: 1000px) {
 
-	.main--brand-storytelling div img {
+	.main--brand-storytelling article img {
 		display: none;
 	}
 

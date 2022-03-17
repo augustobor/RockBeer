@@ -7,7 +7,7 @@ menu li a {
 
 /*Brand Storytelling*/
 
-.main--brand-storytelling div, footer div {
+.main--brand-storytelling article, footer div {
 	padding: 0 90px 0 90px;
 }
 
