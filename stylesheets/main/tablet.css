@@ -25,19 +25,14 @@ menu li a {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
+	align-items: center;
 }
 
 #main--carrusel-opinions article {
-	margin: 2.5rem;
 	padding: 1%;
-	font-size: 2.5rem;
-	width: 43%;	
+	font-size: 2.5rem;	
 }
 
-#main--carrusel-opinions article div img{
-	width: 15%;
-	height: 15%;
-}
 
 /*footer*/
 

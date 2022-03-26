@@ -68,7 +68,15 @@
 
         <hr/>
             <div id="main--carrusel-opinions">
-
+                <ol v-for="opinion in userInfoList">
+                    <article>
+                        <div>
+                            <img v-bind:src = "opinion.profile" alt="image icon"/>
+                            <b>{{ opinion.name }}</b>
+                        </div>
+                        <p>{{ opinion.opinion }}</p>       
+                    </article>
+                </ol>
             </div>
         <hr/>
     </section>
@@ -96,6 +104,7 @@
 
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./js/index.js"></script>
     <script src="./SEO.json" type="application/ld+json"></script>
 </body>

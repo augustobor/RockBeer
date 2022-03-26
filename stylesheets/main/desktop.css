@@ -55,13 +55,20 @@ menu {
 .main--carrusel > p {
 	margin-top: 10rem;
 }
+
+
+
 #main--carrusel-opinions article {
-	width: 45%;	
+	font-size: 4rem;
+	padding: 10%;
 }
 
-#main--carrusel-opinions article div img{
-	width: 12%;
-	height: 12%;
+#main--carrusel-opinions article div {
+	font-size: 4.3rem;
+}
+
+#main--carrusel-opinions article div img {
+	transform: scale(1.4);
 }
 
 /*footer*/

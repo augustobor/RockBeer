@@ -38,10 +38,24 @@
         promos to eat out with friends.</p>
     
         <div id="products--items">
-       
+
+            <ol id="products--items" v-for="product in productsList">
+                <article>
+                    <p>{{ product.combo }}</p>
+                    <div>
+                        <img v-bind:src="product.image" alt="combo"/>
+                        <div>
+                            <p>{{ product.description }}</p>
+                            <p>{{ product.price }}</p>
+                            <a id="products--items-button" href="./landing.html">Reservar</a>
+                        </div>
+                    </div>
+                </article>
+            </ol>
         </div>
     </section>
    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="../js/products.js"></script>
 </body>
 </html>
