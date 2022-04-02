@@ -1,4 +1,3 @@
-
 const productsListCombo = [
 
     {name : 'Combo 1',},
