@@ -1,68 +1,9 @@
-/* Initial configuration */
-
-:root {
-	--brown-IPA: #621002;
-	--red-beard: #981301;
-	--red-scotish: #9F001E;
-	--yellow-honey: #FFD701;
-	--yellow-pamp: #F89A09;
-	--black: #1C1C1C;
-	--off-white:#F5F5F5;
-}
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0; 
-}
-
-html {
-	font-size: 62.5%;
-	font-family: 'Domine', serif;
-	scroll-behavior: smooth;
-}
+@import url('../config/config.css');
+@import url('../config/menu.css');
 
 header {
     height: 7rem;
     background: linear-gradient(90deg, var(--yellow-pamp) 16.69%, var(--brown-IPA) 100%);
-}
-
-
-/*Menu*/
-
-menu ul {
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: row;
-	font-size: 1.5rem;
-	list-style: none;
-	background-color: var(--black);
-}
-
-
-menu li {
-	margin-top: 1rem;
-	padding: 3%;
-	border-radius: 10px;
-	transform: scale(1);
-	transition: all 200ms linear;
-	animation: visible 600ms linear;
-	animation-direction: reverse;
-}
-
-menu li:hover {
-	transform: scale(1.1);
-	transition: all 200ms linear;
-	animation: visible 600ms linear;
-}
-
-menu li a:active {
-	color: var(--red-beard);
-}
-
-menu li a {
-	text-decoration: none;
-	color: var(--off-white);
 }
 
 

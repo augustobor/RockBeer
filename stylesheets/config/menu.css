@@ -1,0 +1,36 @@
+/*Menu*/
+
+menu ul {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	font-size: 1.5rem;
+	list-style: none;
+	background-color: var(--black);
+}
+
+
+menu li {
+	margin-top: 1rem;
+	padding: 3%;
+	border-radius: 10px;
+	transform: scale(1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+	animation-direction: reverse;
+}
+
+menu li:hover {
+	transform: scale(1.1);
+	transition: all 200ms linear;
+	animation: visible 600ms linear;
+}
+
+menu li a:active {
+	color: var(--red-beard);
+}
+
+menu li a {
+	text-decoration: none;
+	color: var(--off-white);
+}

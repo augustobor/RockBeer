@@ -1,0 +1,23 @@
+/* Initial configuration */
+
+:root {
+	--brown-IPA: #621002;
+	--red-beard: #981301;
+	--red-scotish: #9F001E;
+	--yellow-honey: #FFD701;
+	--yellow-pamp: #F89A09;
+	--black: #1C1C1C;
+	--off-white:#F5F5F5;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0; 
+}
+
+html {
+	font-size: 62.5%;
+	font-family: 'Arvo', serif;
+	scroll-behavior: smooth;
+}

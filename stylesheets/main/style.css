@@ -1,26 +1,5 @@
-/* Initial configuration */
-
-:root {
-	--brown-IPA: #621002;
-	--red-beard: #981301;
-	--red-scotish: #9F001E;
-	--yellow-honey: #FFD701;
-	--yellow-pamp: #F89A09;
-	--black: #1C1C1C;
-	--off-white:#F5F5F5;
-}
-
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0; 
-}
-
-html {
-	font-size: 62.5%;
-	font-family: 'Arvo', serif;
-	scroll-behavior: smooth;
-}
+@import url('../config/config.css');
+@import url('../config/menu.css');
 
 body {
 	background-color: var(--black);
@@ -46,43 +25,6 @@ header img {
 header h1 {
 	padding-bottom: 1%;
 }
-
-/*Menu*/
-
-menu ul {
-	display: flex;
-	justify-content: space-evenly;
-	flex-direction: row;
-	font-size: 1.5rem;
-	list-style: none;
-}
-
-
-menu li {
-	margin-top: 1rem;
-	padding: 3%;
-	border-radius: 10px;
-	transform: scale(1);
-	transition: all 200ms linear;
-	animation: visible 600ms linear;
-	animation-direction: reverse;
-}
-
-menu li:hover {
-	transform: scale(1.1);
-	transition: all 200ms linear;
-	animation: visible 600ms linear;
-}
-
-menu li a:active {
-	color: var(--red-beard);
-}
-
-menu li a {
-	text-decoration: none;
-	color: var(--off-white);
-}
-
 
 
 /*Brand Storytelling*/
@@ -146,8 +88,7 @@ menu li a {
 }
 
 #main--carrusel-opinions article div {
-	display: flex;
-	margin-bottom: 1.4rem;
+	display: flex;	
 	justify-content: left;
 	margin: 1.3rem 0rem;
 }
@@ -170,13 +111,10 @@ footer {
 footer hr {
 	border-color: var(--red-scotish);
 	margin: 1rem 3rem;
-	margin: 0 20% 0 20%;
 }
 
-footer .footer--contact > h2 {
+footer .footer--contact > p {
 	margin-top: 6rem;
-	margin-bottom: 0.8rem;
-	font-size: 1.8rem;
 }
 
 footer p {
@@ -255,7 +193,7 @@ footer p {
 
 @media screen and (max-width: 1000px) {
 
-	.main--brand-storytelling article img {
+	.main--brand-storytelling div img {
 		display: none;
 	}
 
