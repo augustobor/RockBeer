@@ -35,7 +35,7 @@
 
     <section class="main--brand-storytelling">
     
-        <article>
+        <div>
             <p>
                 Rock beer wants to you have an excellent experience in 
                 our pub in the simplest way with the best quality that can be offered.
@@ -44,8 +44,8 @@
             <center>
                 <img src="./images/main/desktop/pic1.webp" alt="people at RockBeer"/>
             </center>
-        </article>
-        <article>
+        </div>
+        <div>
             <center>
                 <img src="./images/main/desktop/pic2.webp" alt="RockBeer pic"/>
             </center>
@@ -55,7 +55,7 @@
                 in reserve.
             </p>
             <hr/>
-        </article> 
+        </div> 
         
         <img src="./images/main/phone/figure.webp" alt="half circle"/>
 
@@ -68,15 +68,7 @@
 
         <hr/>
             <div id="main--carrusel-opinions">
-                <ol v-for="opinion in userInfoList">
-                    <article>
-                        <div>
-                            <img v-bind:src = "opinion.profile" alt="image icon"/>
-                            <b>{{ opinion.name }}</b>
-                        </div>
-                        <p>{{ opinion.opinion }}</p>       
-                    </article>
-                </ol>
+
             </div>
         <hr/>
     </section>

@@ -20,8 +20,6 @@ menu li a{
 /*Section*/
 
 #products--items article {
-    align-self: center;
-    width: 80%;
 	padding: 1%;
 }
 

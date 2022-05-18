@@ -146,8 +146,7 @@ menu li a {
 }
 
 #main--carrusel-opinions article div {
-	display: flex;
-	margin-bottom: 1.4rem;
+	display: flex;	
 	justify-content: left;
 	margin: 1.3rem 0rem;
 }
@@ -170,13 +169,10 @@ footer {
 footer hr {
 	border-color: var(--red-scotish);
 	margin: 1rem 3rem;
-	margin: 0 20% 0 20%;
 }
 
-footer .footer--contact > h2 {
+footer .footer--contact > p {
 	margin-top: 6rem;
-	margin-bottom: 0.8rem;
-	font-size: 1.8rem;
 }
 
 footer p {
@@ -255,7 +251,7 @@ footer p {
 
 @media screen and (max-width: 1000px) {
 
-	.main--brand-storytelling article img {
+	.main--brand-storytelling div img {
 		display: none;
 	}
 
