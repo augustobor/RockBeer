@@ -23,8 +23,7 @@ menu {
 	flex-direction: row;
 }
 
-
-.main--brand-storytelling article img {
+.main--brand-storytelling div img {
 	margin-left: 10rem;
 	align-self: center;
 }
@@ -34,7 +33,7 @@ menu {
 }
 
 
-.main--brand-storytelling article, footer div {
+.main--brand-storytelling div, footer div {
 	padding: 0 50px 0 50px;
 }
 
@@ -55,20 +54,18 @@ menu {
 .main--carrusel > p {
 	margin-top: 10rem;
 }
-
-
-
 #main--carrusel-opinions article {
-	font-size: 4rem;
-	padding: 10%;
+	width: 45%;	
 }
 
-#main--carrusel-opinions article div {
-	font-size: 4.3rem;
+#main--carrusel-opinions article div img{
+	width: 12%;
+	height: 12%;
 }
 
-#main--carrusel-opinions article div img {
-	transform: scale(1.4);
+h2 {
+	font-size: x-large;
+	margin-top: 5rem;
 }
 
 /*footer*/
@@ -77,6 +74,6 @@ footer p, footer .footer--by, footer .footer--github a, footer .footer--reposito
 	font-size: 3rem;
 }
 
-footer .footer--contact > h2 {
-	font-size: 3rem;
+footer hr {
+	margin: 1% 30%;
 }
